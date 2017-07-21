@@ -34,7 +34,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/landing-2000x1396.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/landing-2000x1395.png",
             "bgColor": "#fff8e0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -70,13 +70,13 @@
                 "active": false
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/2-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/2-2000x1500.png",
+                "thumb": "@PROJECT_PATH@/assets/images/2-1-2000x1500-800x600.png",
+                "image": "@PROJECT_PATH@/assets/images/2-1-2000x1500.png",
                 "active": false
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/3-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/3-2000x1500.png",
+                "thumb": "@PROJECT_PATH@/assets/images/3-1-2000x1500-800x600.png",
+                "image": "@PROJECT_PATH@/assets/images/3-1-2000x1500.png",
                 "active": false
               },
               {

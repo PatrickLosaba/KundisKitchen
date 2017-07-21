@@ -44,7 +44,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#ffffff",
-            "contentAlign": "right",
+            "contentAlign": "center",
             "showTitle": false,
             "showText": false,
             "showButtons": true,

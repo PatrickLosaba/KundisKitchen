@@ -1,0 +1,156 @@
+{
+  "settings": {
+    "name": "KundisKitchen",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 4,
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/icon-2-128x142-1.png",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/landing-2000x1396.png",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ffffff",
+            "contentAlign": "center",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "Mobirise",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"index.html#contacts3-1\" data-toolbar=\"-mbrBtnMove\">Contact Us</a> "
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/whatsapp-image-2017-07-21-at-1-2000x1500-800x600.png",
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2017-07-21-at-1-2000x1500.png",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/2-2000x1500-800x600.png",
+                "image": "@PROJECT_PATH@/assets/images/2-2000x1500.png",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/3-2000x1500-800x600.png",
+                "image": "@PROJECT_PATH@/assets/images/3-2000x1500.png",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/4-2000x1500-800x600.png",
+                "image": "@PROJECT_PATH@/assets/images/4-2000x1500.png",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-3",
+          "articleLayout": false
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "text1": "<strong style=\"font-size: 1rem; line-height: 1.5;\">Contacts</strong><br><strong style=\"font-size: 1rem; line-height: 1.5;\"><br></strong><br><strong style=\"font-size: 1rem; line-height: 1.5;\">Khundi Thai<br></strong>Email:&nbsp;kundiskitchen@outlook.com<br>",
+          "text2": "",
+          "form": {
+            "title": "MESSAGE",
+            "action": "kundiskitchen@outlook.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\">Contact Us</a>",
+          "_styles": {
+            "STRONG": {
+              "color": "#aee2c2"
+            },
+            "P": {
+              "color": "#ff00dc"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
